@@ -1,0 +1,121 @@
+.share-wrapper {
+    display: flex;
+    width: 40em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    -webkit-box-shadow: 3px 3px 16px 4px #D9D9D9; 
+    box-shadow: 3px 3px 16px 4px #D9D9D9;
+    padding: 1.3em 0;
+    /* height: 12em; */
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 3% 0 2% 0;
+}
+
+.share-top {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+.share-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 2%;
+    
+}
+.separator-line {
+    height: .5px;
+    color: grey;
+    width: 80%;
+    margin: 2% 0;
+}
+
+.user-pfp {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#media-input {
+    /* display: none; */
+
+}
+
+input[type=file]::-webkit-file-upload-button {
+    display: none;
+    text-decoration: underline;
+}
+
+.media-span {
+    margin-left: 6px;
+    margin-right: 5px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#status-textbox {
+    outline: none;
+    /* border: .5px solid grey; */
+    border:none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: Overpass;
+    font-weight: 300;
+    padding: 6px;
+    margin-left: 10px;
+    resize: none;
+}
+
+.add-media label {
+    cursor: pointer;
+    font-size: .8em;
+}
+
+.share-btn {
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2px 15px; */
+    width: 105.58px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #4178e6;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+}
+
+.share-btn:disabled {
+    cursor: not-allowed;
+    opacity: .5;
+}
+
+.share-btn:hover {
+    background-color: #0c2861d8;
+}
+
+.error-notification {
+    font-weight: 600;
+    color: rgb(231, 59, 59);
+}
+
+.media-icon {
+    font-size: 1.5rem;
+    color: royalblue;
+    transition: all .2s ease-in-out;
+
+}
+.media-icon:hover {
+    color: rgb(23, 35, 71);
+}
+
+

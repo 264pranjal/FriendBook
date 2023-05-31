@@ -1,0 +1,133 @@
+.container-messenger {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.messenger-wrapper {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    height: calc(100vh - 66px);
+    padding: 0 10%;
+}
+
+.conversation-list {
+    flex: 3;   
+    height: calc(100vh - 73.78px);
+    position: sticky;
+    overflow-y: auto;
+    border-left: 2px solid grey;
+    border-right: 1px solid grey;
+}
+
+.conversations-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+.convo-title, .online-span {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: .8em;
+    text-align: center;
+}
+
+.online-span {
+    margin-top: 1em;
+}
+
+.convo-hr {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(124, 124, 124);
+}
+
+.online-hr {
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+
+.message-box {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 66px);
+    position: sticky;
+    border-right: 1px solid grey;
+}
+
+.online-friends-messenger {
+    flex: 3;
+}
+
+.message-box-top {
+    flex: 7.5;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.no-convo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.no-conv-info {
+    font-size: 3em;
+    color: grey;
+    width: 80%;
+}
+
+.message-input-box-wrapper {
+    flex: 2.5;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-input {
+    border-radius: 7px;
+    font-size: 1em;
+    padding: 0.4em;
+    line-height: 1.5em;
+    font-family: 'Lato', sans-serif;
+    resize: none;
+}
+
+.msg-send-btn {
+    background-color: rgb(19, 177, 19);
+    text-decoration: none;
+    width: 20%;
+    padding: .7em;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1.3em;
+    margin: 0.1em .6em .6em .6em;
+    cursor: pointer;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.msg-send-btn:hover {
+    background-color: rgb(21, 121, 21);
+}
+
+.online-friends-messenger {
+    display: flex;
+    flex-direction: column;
+}
+
+

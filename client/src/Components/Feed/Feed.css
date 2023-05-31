@@ -1,0 +1,17 @@
+.feed {
+    flex: 6.5;
+
+}
+
+.feed-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.spinner-feed {
+    margin: 1.3em 0;
+}
